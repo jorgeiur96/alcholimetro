@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jorge.menus.Fragment01">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+
+        android:layout_gravity="top|center"
+        android:layout_marginTop="20dp"
+        android:text="Visita nuestra pagina web"
+        android:textColor="#222"
+        android:textSize="25dp"
+        android:textStyle="normal|bold|italic" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="www.JJsoftware.com"
+    android:textColor="#222"
+    android:id="@+id/textView2"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="center"
+    android:textStyle="normal|bold|italic"
+    android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para mas informacion"
+        android:textColor="#fff"
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+
+
+        android:textStyle="normal|bold|italic"
+        android:textSize="20dp" />
+
+
+</FrameLayout>

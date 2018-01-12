@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:openDrawer="start">
+
+
+    <GridView
+
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:id="@+id/listView"
+        android:columnWidth="90dp"
+        android:background="@color/colorAccent"
+        android:verticalSpacing="10dp"
+        android:elevation="@dimen/activity_horizontal_margin"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:transitionGroup="false"
+        android:longClickable="false"
+        android:gravity="top"
+        android:choiceMode="singleChoice"
+        android:contextClickable="false"
+        android:fastScrollAlwaysVisible="false"
+        android:fastScrollEnabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textFilterEnabled="false"
+        android:visibility="visible"
+        android:forceHasOverlappingRendering="false"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/scrollView"
+        android:layout_toEndOf="@+id/scrollView" />
+
+</LinearLayout>
